@@ -53,3 +53,18 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Flex/Bison generated files
+lex.yy.c
+parser.tab.c
+parser.tab.h
+
+# Graphviz output
+*.dot
+*.png
+
+# Output folder contents (keep folder)
+output/*
+
+# VS Code
+.vscode/
