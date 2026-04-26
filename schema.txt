@@ -1,0 +1,9 @@
+# Schema file for SQL Query Analyzer
+# Format:  table_name: col1 col2 col3
+# Column names are separated by spaces.
+
+students: id name age department
+courses: course_id course_name credits
+enrollment: enroll_id student_id course_id semester grade
+faculty: faculty_id name department designation
+
